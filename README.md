@@ -16,10 +16,14 @@ It enables read and write operations via SPI communication, with the internal RA
 
 ## Project Structure
 
+```
+├── bitstream/         # Bitstream file
 ├── constraints/       # Clock and pin constraint file (.xdc)
+├── netlist/           # Netlist file
 ├── src/               # Verilog source files
 ├── tb/                # Testbench files
 ├── SPI_Report.pdf     # Detailed project report
+```
 
 ## Tools & Technologies
 
